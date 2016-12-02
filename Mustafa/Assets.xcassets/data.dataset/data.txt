@@ -1,0 +1,45 @@
+{
+  "kullanýcýlar": {
+    "eyildiztepe@gmail.com": { "ad": "Emre Yýldýztepe", "takýmlar": { "Emre FC": true, "Ufuk FC": true, "Tolga FC": true }, "federasyonlar": { "OUF": true, "Banka" : true },},
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},},
+    "ahazar@ford.com.tr": { "ad": "Armaðan Hazar", "takýmlar": { }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+    "mgunes1@gmail.com": { "ad": "Murat Güneþ", "takýmlar": { "MG FC": true, "Yavuz FC": true, "Aysan FC": true }, "federasyonlar": { "OUF": true},}, 
+
+
+
+
+
+ },
+  "takýmlar": {
+    "Emre FC": {
+      "ad": "Emre'nin Tontonlarý",
+      "teknikdirektör" : "eyildiztepe@gmail.com",
+      "oyuncular": { "eyildiztepe@gmail.com": true },
+      "federasyon": { "OUF": true },
+    },
+    "MG FC": {
+      "ad": "Murat'ýn Ponponlarý",
+      "takýmlar": { "ghopper": true },
+      "federasyonlar": { "ghopper": true },
+    }
+  }
+}

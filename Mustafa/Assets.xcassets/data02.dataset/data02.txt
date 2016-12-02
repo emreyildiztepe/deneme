@@ -1,0 +1,28 @@
+$sql = "CREATE TABLE `b17_19171540_HALISAHA`.`Kullanici` (`KullaniciKodu` VARCHAR(200) NOT NULL COMMENT \'Kullanýcý kodu olarak e-posta adresi kullanýlýyor\', `AdSoyad` VARCHAR(200) NULL, `Boy` INT NULL, `Kilo` INT NULL, `Ayak` VARCHAR(10) NULL, `Pozisyon` VARCHAR(10) NULL, `OyuncuMu` CHAR(1) NULL, `TeknikDirektorMu` CHAR(1) NULL, `FederasyonYoneticisiMi` CHAR(1) NULL, `HalisahaKalecisiMi` CHAR(1) NULL, `TesisIsletmecisiMi` CHAR(1) NULL, `FotografID` VARCHAR(200) NULL, UNIQUE (`KullaniciKodu`)) ENGINE = MyISAM COMMENT = \'Kullanýcý tanýmlarý\';";
+
+
+
+CREATE TABLE `b17_19171540_HALISAHA`.`KullaniciPushNotificationToken` (
+ `PushNotificationTokenID` INT NOT NULL AUTO_INCREMENT ,
+`KullaniciKodu` VARCHAR( 200 ) NOT NULL ,
+`Token` VARCHAR( 200 ) NOT NULL ,
+PRIMARY KEY ( `PushNotificationTokenID` ) ,
+UNIQUE (
+ `PushNotificationTokenID` 
+)) ENGINE = MYISAM COMMENT = 'Kullanýcýya push notification göndermek için gerekli bilgileri tutar';
+
+
+
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('EvetHayir', 'E', 'Evet');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('EvetHayir', 'H', 'Hayýr');
+
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('Ayak', 'L', 'Sol');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('Ayak', 'R', 'Sað');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('Ayak', 'B', 'Çift');
+
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('FutbolAnaPozisyon', 'GK', 'Kaleci');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('FutbolAnaPozisyon', 'D', 'Defans');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('FutbolAnaPozisyon', 'DM', 'Defansif Merkez Ortasaha');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('FutbolAnaPozisyon', 'M', 'Ortasaha');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('FutbolAnaPozisyon', 'AM', 'Çift');
+INSERT INTO `b17_19171540_HALISAHA`.`Parametre` (`Tip`, `Kod`, `Aciklama`) VALUES ('FutbolAnaPozisyon', 'ST', 'Forvet');
